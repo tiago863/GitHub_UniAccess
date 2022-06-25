@@ -34,3 +34,67 @@ section#telemovel{
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+section#redes-sociais{
+    position:absolute;
+    right: 1%;
+    top:5%;
+
+    height: 400px;
+    width: 60px;
+
+    /*background-color: aqua;*/
+}
+
+.home{
+    position: relative;
+    margin-bottom: 50%;
+    margin-top: 70%;
+
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+
+    border: none;
+    background: url('../imagens/logo-home.jpg') no-repeat center;
+}
+
+.Insta{
+    position: relative;
+    margin-bottom: 50%;
+
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+
+    border: none;
+    background: url('../imagens/logo-instagram.jpg') no-repeat center;
+}
+
+.Facebook{
+    position: relative;
+    margin-bottom: 50%;
+
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+
+    border: none;
+    background: url('../imagens/logo-facebook.jpg') no-repeat center;
+}
+
+.Twitter{
+    position: relative;
+    margin-bottom: 50%;
+
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+
+    border: none;
+    background: url('../imagens/logo-twitter.jpg') no-repeat center;
+}
