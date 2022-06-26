@@ -78,6 +78,11 @@ section#redes-sociais{
     background: url('../imagens/logo-instagram.jpg') no-repeat center;
 }
 
+#Instanimacao:hover{
+    top: -2px;
+    border-bottom: 2px solid #999;
+}
+
 .Facebook{
     position: relative;
     margin-bottom: 50%;
@@ -91,6 +96,11 @@ section#redes-sociais{
     background: url('../imagens/logo-facebook.jpg') no-repeat center;
 }
 
+#Faceanimacao:hover{
+    top: -2px;
+    border-bottom: 2px solid #999;
+}
+
 .Twitter{
     position: relative;
     margin-bottom: 50%;
@@ -102,4 +112,9 @@ section#redes-sociais{
 
     border: none;
     background: url('../imagens/logo-twitter.jpg') no-repeat center;
+}
+
+#Twittanimacao:hover{
+    top: -2px;
+    border-bottom: 2px solid #999;
 }
