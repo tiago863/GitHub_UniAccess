@@ -43,86 +43,28 @@ iframe#tela{
     height: 471px;
 }
 
-section#redes-sociais{
-    position:absolute;
-    right: 1%;
-    top:5%;
+section#redes-sociais {
 
-    height: 400px;
-    width: 60px;
+    text-align: left;
 
-    /*background-color: aqua;*/
 }
 
-.home{
-    position: relative;
-    margin-bottom: 50%;
-    margin-top: 70%;
+section#redes-sociais img{
+    
+      width: 50px;
+      margin: 10px;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+      box-sizing: border-box;
 
-    height: 50px;
-    width: 50px;
-
-    border-radius: 50%;
-
-    border: none;
-    background: url('../imagens/logo-home.jpg') no-repeat center;
 }
 
-#homeanimacao:hover{
-    top: -2px;
-    border-bottom: 2px solid #999;
+section#redes-sociais img:hover{
+
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
+    transition: transform 0.5s, border 1s;
+
 }
 
-.Insta{
-    position: relative;
-    margin-bottom: 50%;
-
-    height: 50px;
-    width: 50px;
-
-    border-radius: 50%;
-
-    border: none;
-    background: url('../imagens/logo-instagram.jpg') no-repeat center;
-}
-
-#Instanimacao:hover{
-    top: -2px;
-    border-bottom: 2px solid #999;
-}
-
-.Facebook{
-    position: relative;
-    margin-bottom: 50%;
-
-    height: 50px;
-    width: 50px;
-
-    border-radius: 50%;
-
-    border: none;
-    background: url('../imagens/logo-facebook.jpg') no-repeat center;
-}
-
-#Faceanimacao:hover{
-    top: -2px;
-    border-bottom: 2px solid #999;
-}
-
-.Twitter{
-    position: relative;
-    margin-bottom: 50%;
-
-    height: 50px;
-    width: 50px;
-
-    border-radius: 50%;
-
-    border: none;
-    background: url('../imagens/logo-twitter.jpg') no-repeat center;
-}
-
-#Twittanimacao:hover{
-    top: -2px;
-    border-bottom: 2px solid #999;
-}
